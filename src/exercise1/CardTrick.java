@@ -23,7 +23,6 @@ public class CardTrick {
             card.setSuit(Card.SUITS[random.nextInt(4)]);
             hand[i] = card;
         }
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the value of your card (1-13): ");
